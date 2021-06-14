@@ -1,0 +1,14 @@
+image:
+  file: .gitpod.Dockerfile
+
+# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 4200 # Angular App
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
+    - vscode-icons-team.vscode-icons
+    - dbaeumer.vscode-eslint
+    - coenraads.bracket-pair-colorizer
